@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/table.css">
+    <title>Таблица внутри таблицы</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>В этом столбце располагается таблица внутри таблицы</th>
+                <th>Этот столбец нужен, чтобы запутать верстальщика еще больше</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <td>Проверяйте ваши таблицы в валидаторе</td>
+                            <td><a href="https://validator.w3.org/">validator.w3.org</a></td>
+                        </tr>
+                        <tr>
+                            <td>Инструментарий от студии Лебедева</td>
+                            <td><a href="https://artlebedev.ru/topograf">artlebedev.ru/topograf</a></td>
+                        </tr>
+                    </table>
+                </td>
+                <td rowspan="2">Столбец который обязателен по ТЗ</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
